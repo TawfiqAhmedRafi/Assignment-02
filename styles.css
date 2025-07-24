@@ -94,7 +94,7 @@ nav{
 }
 
 /* main */
-
+/*our plants  */
 .plant-text{
     text-align: center;
 }
@@ -108,10 +108,46 @@ nav{
     color: white;
     padding: 16px 50px;
     width: 100%;
-    
+
 }
 @media screen and (max-width:576px){
     .btn{
         padding:16px 30px;
+    }
+}
+/* Flower section */
+
+.trust{
+   background-color:transparent;
+}
+  
+ .box {
+  position: relative;
+  max-width: 450px; 
+}
+
+.main-img img.img-hum {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.trust-img {
+  position: absolute;
+  top: -30%;
+  right: -30%;  
+  width: 275px;  
+  height: auto;
+  z-index: 10;
+  background-color: transparent;
+  filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.5));
+}
+
+@media screen and (max-width:576px){
+    .trust-img{
+        display: none;
+    }
+    .box{
+        max-width: 100%;
     }
 }
