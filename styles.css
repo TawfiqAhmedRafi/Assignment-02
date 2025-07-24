@@ -92,3 +92,26 @@ nav{
     }
 
 }
+
+/* main */
+
+.plant-text{
+    text-align: center;
+}
+.plant-text>h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #E95A08 ;
+    color: white;
+    padding: 16px 50px;
+    width: 100%;
+    
+}
+@media screen and (max-width:576px){
+    .btn{
+        padding:16px 30px;
+    }
+}
