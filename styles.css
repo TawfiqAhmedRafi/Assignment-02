@@ -48,8 +48,8 @@ nav{
 @media  screen and (max-width:576px) {
     nav{
         max-height: 38px;
-        max-width: 361px;
-        margin: 67px auto 0px auto;
+        
+        margin: 67px 20px 0px 20px;
         position: relative;
         z-index: 10;
         
@@ -87,7 +87,7 @@ nav{
    
     max-width:100%;
     height: auto;
-  display: block;
+    display: block;
        
     }
 
