@@ -114,6 +114,9 @@ nav{
     .btn{
         padding:16px 30px;
     }
+    .plant-text>h3{
+        font-size: 24px;
+    }
 }
 /* Flower section */
 
@@ -233,4 +236,17 @@ nav{
     .grid-1 ,.grid-2 , .grid-3 {
         height: 184px;
     }
+    .my-bg-1 
+     {
+      background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./assets/deal-bloom.png');  
+    }
+    .my-bg-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/deal-ana.png');
+    }
+    .my-bg-3 {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('./assets/deal-zabo.png');
+    }
+
 }
