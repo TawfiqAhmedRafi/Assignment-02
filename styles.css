@@ -227,6 +227,8 @@ nav{
     .gridview{
     grid-template-columns: repeat(1,1fr);
     row-gap: 20px;
+    margin-bottom: 40px;
+    height: auto;
     }
     .grid-3{
     grid-row: span 1;
@@ -249,4 +251,72 @@ nav{
   background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('./assets/deal-zabo.png');
     }
 
+}
+/* footer
+ */
+ footer input[type="email"]{
+    height:50px ;
+    width: 830px;
+    /* display: block; */
+    background-color: white;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    padding :10px 20px;
+ }
+ .bttn{
+    background-color: #E95A08;
+    color: white;
+    height: 50px;
+    width: auto;
+    padding: 10px 50px 17px 50px;
+ }
+.ft-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+    border: none;
+    text-align: center;
+    height: 530px;
+    background-image: url('./assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:576px){
+     footer input[type="email"]{
+        margin:   0 auto;
+        width: auto;
+        background-color: transparent;
+     }
+     .bttn{
+        max-width :120px;
+        padding: 12px 30px;
+     }
+     .inputf{
+        background-color: white;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin: 0 36px;
+     }
+     .ft-img{
+    width: 100%;
+    min-height: 275px;
+     }
+     
+     
+}
+.icon{
+    display: flex;
+}
+@media screen and (max-width:576px){
+    .li-1 , .li-2 {
+        margin-top: 20px;
+    }
+    .li-2{
+        margin-bottom: 20px;
+    }
 }
